@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <script type="text/javascript" src="/js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+
+    <title>Leopards</title>
+</head>
+
+<body>
+
+    <% if(messages.registration) { %>
+        <span id="error"><%= messages.registration[0] %></span>
+    <% } %>
+
+    <form action="/leopard" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" class="form-control" name="name">
+        <button type="submit" class="btn btn-success">Create</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <script type="text/javascript" src="/js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+
+    <title>Leopards</title>
+</head>
+
+<body>
+    <main id=grid_container>
+
+
+        <h1>Your Leopard - "<%= leopard.name %>"</h1>
+        <p>Their ID number is "<%= leopard._id %>"</p>
+        <p>Created at "<%= leopard.createdAt %>"</p>
+        <p>Updated at "<%= leopard.updatedAt %>"</p>
+
+        <a href="/leopard/edit/<%= leopard._id %>">Edit</a>
+    <a href="/" class="btn btn-primary">Home</a>
+</main>
+</body>
+
+</html>

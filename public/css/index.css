@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+#errors{
+    color:red;
+}
+
+label{
+    margin-top:20px;
+}
+
+#name{
+    margin:0px auto;
+    width: 100px;
+}
